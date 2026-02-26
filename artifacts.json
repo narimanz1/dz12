@@ -1,0 +1,233 @@
+{
+  "dhcp_events": [
+    {
+      "number": 1,
+      "time": "2004-12-05 14:16:24.317453",
+      "src_ip": "0.0.0.0",
+      "dst_ip": "255.255.255.255",
+      "src_mac": "00:0b:82:01:fc:42",
+      "dst_mac": "ff:ff:ff:ff:ff:ff",
+      "length": 314,
+      "dhcp_type": "Discover",
+      "transaction_id": "0x00003d1d",
+      "client_mac": "00:0b:82:01:fc:42",
+      "requested_ip": "0.0.0.0"
+    },
+    {
+      "number": 2,
+      "time": "2004-12-05 14:16:24.317748",
+      "src_ip": "192.168.0.1",
+      "dst_ip": "192.168.0.10",
+      "src_mac": "00:08:74:ad:f1:9b",
+      "dst_mac": "00:0b:82:01:fc:42",
+      "length": 342,
+      "dhcp_type": "Offer",
+      "transaction_id": "0x00003d1d",
+      "client_mac": "00:0b:82:01:fc:42",
+      "server_id": "192.168.0.1",
+      "subnet": "255.255.255.0",
+      "lease": "3600",
+      "offered_ip": "192.168.0.10"
+    },
+    {
+      "number": 3,
+      "time": "2004-12-05 14:16:24.387484",
+      "src_ip": "0.0.0.0",
+      "dst_ip": "255.255.255.255",
+      "src_mac": "00:0b:82:01:fc:42",
+      "dst_mac": "ff:ff:ff:ff:ff:ff",
+      "length": 314,
+      "dhcp_type": "Request",
+      "transaction_id": "0x00003d1e",
+      "client_mac": "00:0b:82:01:fc:42",
+      "requested_ip": "192.168.0.10",
+      "server_id": "192.168.0.1"
+    },
+    {
+      "number": 4,
+      "time": "2004-12-05 14:16:24.387798",
+      "src_ip": "192.168.0.1",
+      "dst_ip": "192.168.0.10",
+      "src_mac": "00:08:74:ad:f1:9b",
+      "dst_mac": "00:0b:82:01:fc:42",
+      "length": 342,
+      "dhcp_type": "ACK",
+      "transaction_id": "0x00003d1e",
+      "client_mac": "00:0b:82:01:fc:42",
+      "server_id": "192.168.0.1",
+      "subnet": "255.255.255.0",
+      "lease": "3600",
+      "offered_ip": "192.168.0.10"
+    }
+  ],
+  "dns_queries": [
+    {
+      "number": 1,
+      "time": "2026-02-26 03:44:34.339507",
+      "src_ip": "192.168.26.79",
+      "dst_ip": "192.168.26.80",
+      "length": 76,
+      "query_name": "ds.kaspersky.com",
+      "query_type": "1",
+      "type": "query"
+    },
+    {
+      "number": 2,
+      "time": "2026-02-26 03:44:34.339677",
+      "src_ip": "192.168.26.79",
+      "dst_ip": "192.168.10.8",
+      "length": 76,
+      "query_name": "ds.kaspersky.com",
+      "query_type": "1",
+      "type": "query"
+    },
+    {
+      "number": 3,
+      "time": "2026-02-26 03:44:34.515989",
+      "src_ip": "192.168.26.194",
+      "dst_ip": "192.168.26.11",
+      "length": 100,
+      "query_name": "connectivity-check.ubuntu.com",
+      "query_type": "1",
+      "type": "query"
+    },
+    {
+      "number": 5,
+      "time": "2026-02-26 03:44:35.557943",
+      "src_ip": "192.168.26.198",
+      "dst_ip": "192.168.26.11",
+      "length": 97,
+      "query_name": "_ldap._tcp.dc._msdcs.t1.soc.ecssec.ru",
+      "query_type": "33",
+      "type": "query"
+    },
+    {
+      "number": 7,
+      "time": "2026-02-26 03:44:36.083352",
+      "src_ip": "192.168.26.198",
+      "dst_ip": "192.168.26.11",
+      "length": 97,
+      "query_name": "_ldap._tcp.dc._msdcs.t1.soc.ecssec.ru",
+      "query_type": "33",
+      "type": "query"
+    },
+    {
+      "number": 9,
+      "time": "2026-02-26 03:44:37.098930",
+      "src_ip": "192.168.26.198",
+      "dst_ip": "192.168.26.11",
+      "length": 97,
+      "query_name": "_ldap._tcp.dc._msdcs.t1.soc.ecssec.ru",
+      "query_type": "33",
+      "type": "query"
+    },
+    {
+      "number": 11,
+      "time": "2026-02-26 03:44:38.065928",
+      "src_ip": "192.168.26.51",
+      "dst_ip": "8.8.8.8",
+      "length": 76,
+      "query_name": "wpad.lab.pentest",
+      "query_type": "1",
+      "type": "query"
+    },
+    {
+      "number": 12,
+      "time": "2026-02-26 03:44:38.067302",
+      "src_ip": "192.168.26.51",
+      "dst_ip": "8.8.8.8",
+      "length": 76,
+      "query_name": "wpad.lab.pentest",
+      "query_type": "1",
+      "type": "query"
+    }
+  ],
+  "dns_responses": [
+    {
+      "number": 4,
+      "time": "2026-02-26 03:44:34.551456",
+      "src_ip": "192.168.26.11",
+      "dst_ip": "192.168.26.194",
+      "length": 276,
+      "query_name": "connectivity-check.ubuntu.com",
+      "query_type": "1",
+      "type": "response",
+      "resolved_ip": "91.189.91.48"
+    },
+    {
+      "number": 6,
+      "time": "2026-02-26 03:44:35.558791",
+      "src_ip": "192.168.26.11",
+      "dst_ip": "192.168.26.198",
+      "length": 165,
+      "query_name": "_ldap._tcp.dc._msdcs.t1.soc.ecssec.ru",
+      "query_type": "33",
+      "type": "response"
+    },
+    {
+      "number": 8,
+      "time": "2026-02-26 03:44:36.084103",
+      "src_ip": "192.168.26.11",
+      "dst_ip": "192.168.26.198",
+      "length": 165,
+      "query_name": "_ldap._tcp.dc._msdcs.t1.soc.ecssec.ru",
+      "query_type": "33",
+      "type": "response"
+    },
+    {
+      "number": 10,
+      "time": "2026-02-26 03:44:37.099713",
+      "src_ip": "192.168.26.11",
+      "dst_ip": "192.168.26.198",
+      "length": 165,
+      "query_name": "_ldap._tcp.dc._msdcs.t1.soc.ecssec.ru",
+      "query_type": "33",
+      "type": "response"
+    },
+    {
+      "number": 13,
+      "time": "2026-02-26 03:44:38.100878",
+      "src_ip": "8.8.8.8",
+      "dst_ip": "192.168.26.51",
+      "length": 151,
+      "query_name": "wpad.lab.pentest",
+      "query_type": "1",
+      "type": "response"
+    },
+    {
+      "number": 14,
+      "time": "2026-02-26 03:44:38.102491",
+      "src_ip": "8.8.8.8",
+      "dst_ip": "192.168.26.51",
+      "length": 151,
+      "query_name": "wpad.lab.pentest",
+      "query_type": "1",
+      "type": "response"
+    }
+  ],
+  "unique_domains": [
+    "_ldap._tcp.dc._msdcs.t1.soc.ecssec.ru",
+    "connectivity-check.ubuntu.com",
+    "ds.kaspersky.com",
+    "wpad.lab.pentest"
+  ],
+  "all_ip_addresses": [
+    "0.0.0.0",
+    "192.168.0.1",
+    "192.168.0.10",
+    "192.168.10.8",
+    "192.168.26.11",
+    "192.168.26.194",
+    "192.168.26.198",
+    "192.168.26.51",
+    "192.168.26.79",
+    "192.168.26.80",
+    "255.255.255.255",
+    "8.8.8.8"
+  ],
+  "all_mac_addresses": [
+    "00:08:74:ad:f1:9b",
+    "00:0b:82:01:fc:42",
+    "ff:ff:ff:ff:ff:ff"
+  ]
+}
